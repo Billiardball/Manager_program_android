@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00113f</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#00a3e4</color>
+    <color name="colorWhite">#fff</color>
+    <color name="colorGray">#BBBBBB</color>
+    <color name="colorFacebookOrigin">#3b5998</color>
+    <color name="colorTwitterOrigin">#00acee</color>
+    <color name="colorOnline">#3A98E4</color>
+    <color name="colorBlack">#000</color>
+    <color name="transparent">#00000000</color>
+    <color name="colorGrey1">#808080</color>
+    <color name="colorGrey2">#E0E0E0</color>
+    <color name="colorWhite1">#88D8D8D8</color>
+    <color name="colorBlue">#06B5FA</color>
+</resources>

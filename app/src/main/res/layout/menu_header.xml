@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_close1"
+            android:paddingLeft="19dp"
+            android:paddingRight="19dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lnl_avatar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:background="@color/colorWhite"
+        android:gravity="center">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/imvUserPhoto"
+            android:layout_width="151dp"
+            android:layout_height="151dp"
+            android:src="@drawable/avatar"
+            app:riv_corner_radius="76dp"
+            app:riv_border_color="@color/colorPrimary"
+            app:riv_border_width="2dp"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:id="@+id/txvUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nelson Buldier"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="12dp"/>
+
+    </LinearLayout>
+<!--
+    <TextView
+        android:id="@+id/txv_port_trucker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lnl_avatar"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/big_noodle_titling"
+        android:textColor="@color/colorWhite"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:text="PORT TRUCKER"/>
+
+    <TextView
+        android:id="@+id/txv_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txv_port_trucker"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorWhite"
+        android:textSize="12sp"
+        android:text="Together we make a difference !"/>-->
+
+</LinearLayout>

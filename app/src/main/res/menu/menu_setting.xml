@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuMyReport"
+        android:icon="@drawable/ic_report1"
+        android:title="My Report"/>
+    <item
+        android:id="@+id/menuMyPassword"
+        android:icon="@drawable/ic_setting1"
+        android:title="My Password"/>
+</menu>

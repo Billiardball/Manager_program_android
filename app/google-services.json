@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "178855929567",
+    "firebase_url": "https://port-trucker-b3055.firebaseio.com",
+    "project_id": "port-trucker-b3055",
+    "storage_bucket": "port-trucker-b3055.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178855929567:android:8109cde7132417d4",
+        "android_client_info": {
+          "package_name": "com.driver.porttrucker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "178855929567-urfkpcq5g0hsho1sglmi4qq6u82uv17a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.driver.porttrucker",
+            "certificate_hash": "3266c83630628b06e862fadea6e027ee21edb1b2"
+          }
+        },
+        {
+          "client_id": "178855929567-gl8gasjup4ithknarm4jvb5r7m4qakjd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.driver.porttrucker",
+            "certificate_hash": "37e17eaf9600fff21379c6648b6cd0d3f8e1c1f6"
+          }
+        },
+        {
+          "client_id": "178855929567-2jkiim9roks58beh7scg1c8ncm2ho1pm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZK5Jvxj5XSIlI_NY1U7W9WrgLriuWq4I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "178855929567-2jkiim9roks58beh7scg1c8ncm2ho1pm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

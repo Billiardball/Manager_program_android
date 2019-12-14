@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group  android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/navCamera"
+            android:icon="@drawable/ic_camera"
+            android:title="Port Camera" />
+        <!--<item
+            android:id="@+id/navReport"
+            android:icon="@drawable/ic_report"
+            android:title="Port Reports"/>-->
+        <item
+            android:id="@+id/navNews"
+            android:icon="@drawable/ic_news"
+            android:title="Port News" />
+
+        <item
+            android:id="@+id/navJobs"
+            android:icon="@drawable/ic_jobs"
+            android:title="Port Jobs" />
+
+        <item android:id="@+id/portLive"
+            android:icon="@drawable/ic_port_live"
+            android:title="Port Live"/>
+
+        <item
+            android:id="@+id/navRate"
+            android:icon="@drawable/ic_time"
+            android:title="Port Rates" />
+
+        <item android:id="@+id/portReport"
+            android:title="Port Reports"
+            android:icon="@drawable/ic_report"/>
+        <!--<item
+            android:id="@+id/navLive"
+            android:icon="@drawable/ic_live"
+            android:title="Port Live" />-->
+        <item
+            android:id="@+id/navGallery"
+            android:icon="@drawable/ic_gallery"
+            android:title="Port Gallery" />
+        <item
+            android:id="@+id/navVideos"
+            android:icon="@drawable/ic_videos"
+            android:title="Port Videos" />
+
+        <item android:id="@+id/portDrivers"
+            android:title="Port Drivers"
+            android:icon="@drawable/ic_port_driver"/>
+        <item
+            android:id="@+id/navSale"
+            android:icon="@drawable/ic_sale"
+            android:title="Truck For Sale" />
+
+        <item android:id="@+id/contactUs"
+            android:icon="@drawable/ic_contact_us"
+            android:title="Contact Us"/>
+
+        <item
+            android:id="@+id/navLogout"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout" />
+
+    </group>
+
+</menu>

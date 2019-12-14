@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/lytFriendMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginBottom="5dp">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/imvFriendPhoto"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:src="@drawable/avatar"
+            app:riv_corner_radius="23dp"
+            android:scaleType="centerCrop"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp">
+
+            <TextView
+                android:id="@+id/txvFriendNameDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Friend Name, 11:28 AM"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/txvFriendMsg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_friend_msg"
+                android:text="Friend Message"
+                android:textColor="@color/colorBlack"
+                android:padding="10dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lytMyMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:id="@+id/txvMyDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="11:18 AM"
+            android:textSize="12sp"
+            android:layout_gravity="right"/>
+
+        <TextView
+            android:id="@+id/txvMyMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Message"
+            android:textColor="@color/colorBlack"
+            android:background="@drawable/bg_my_message"
+            android:padding="10dp"
+            android:layout_gravity="right"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
