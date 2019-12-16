@@ -61,7 +61,7 @@
             android:textColor="@color/colorWhite"
             android:layout_marginTop="12dp"/>
 
-        <com.driver.porttrucker.CustomView.CustomMapView
+        <com.food.oder.CustomView.CustomMapView
             android:id="@+id/mapView"
             android:layout_width="match_parent"
             android:layout_height="452dp"

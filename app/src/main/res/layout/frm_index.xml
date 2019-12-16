@@ -45,7 +45,7 @@
 
             </FrameLayout>
 
-            <com.driver.porttrucker.CustomView.NonScrollListView
+            <com.food.oder.CustomView.NonScrollListView
                 android:id="@+id/lstNews"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
@@ -74,7 +74,7 @@
 
             </LinearLayout>
 
-            <com.driver.porttrucker.CustomView.NonScrollListView
+            <com.food.oder.CustomView.NonScrollListView
                 android:id="@+id/lstCamera"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -105,7 +105,7 @@
 
             </LinearLayout>
 
-            <com.driver.porttrucker.CustomView.NonScrollListView
+            <com.food.oder.CustomView.NonScrollListView
                 android:id="@+id/lstGallery"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -136,7 +136,7 @@
 
             </LinearLayout>
 
-            <com.driver.porttrucker.CustomView.NonScrollListView
+            <com.food.oder.CustomView.NonScrollListView
                 android:id="@+id/lstVideos"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -167,7 +167,7 @@
 
             </LinearLayout>
 
-            <com.driver.porttrucker.CustomView.NonScrollListView
+            <com.food.oder.CustomView.NonScrollListView
                 android:id="@+id/lstSales"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
